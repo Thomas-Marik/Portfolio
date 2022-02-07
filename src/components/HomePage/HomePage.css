@@ -1,0 +1,8 @@
+.homepage{
+    align-items: center;
+    background-color: brown;
+    padding: 10%;
+    color: wheat;
+    height: 100%;
+    overflow:auto;
+}
