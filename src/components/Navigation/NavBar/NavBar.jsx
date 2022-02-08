@@ -8,7 +8,7 @@ import projects from '../../../assets/images/projects.png'
 import contacts from '../../../assets/images/contact.png'
 
 
-const NavBar = () => {
+const NavBar = (props) => {
     
     const links = [
         { id: 1, name: "Home", path: "/", icon: home },

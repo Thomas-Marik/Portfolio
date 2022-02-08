@@ -1,20 +1,20 @@
 import React from 'react';
 import myPhoto from '../../assets/images/matthanrahan.jpg'
-const HomePage = () => {
+const HomePage = (props) => {
     
-    const me = [
-        {first:"Matthew",middle:"Thomas",last:"Hanrahan",image:myPhoto}
-    ]
+    const me =
+        { first: "Matthew", middle: "Thomas", last: "Hanrahan", image: myPhoto }
+        ;
     return (
         <div className='homepage'>
             <div className='splash'>
                 <div className='splash-logo'>
-                    <img className='homepage-logo' src={me[0].image} alt="me"/>
+                    <img className='homepage-logo' src={me.image} alt="me"/>
                 </div>
                 <div className='splash-name'>
-                    <h1>{me[0].first}</h1>
-                    <h1>{me[0].middle}</h1>
-                    <h1>{me[0].last}</h1>
+                    <h1>{me.first}</h1>
+                    <h1>{me.middle}</h1>
+                    <h1>{me.last}</h1>
                 </div>
 
             </div>
